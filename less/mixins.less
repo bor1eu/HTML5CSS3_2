@@ -1,0 +1,40 @@
+// main: style.less
+
+.raleway(@size, @weight) {
+        font-family: 'raleway', Arial, sans-serif;
+        font-size: @size;
+        font-weight: @weight;
+        font-style: normal;
+}
+
+.montserrat(@size, @weight) {
+        font-family: 'montserrat', Arial, sans-serif;
+        font-size: @size;
+        font-weight: @weight;
+        font-style: normal;
+}
+
+.roboto(@size, @weight) {
+        font-family: 'roboto', Arial, sans-serif;
+        font-size: @size;
+        font-weight: @weight;
+        font-style: normal;
+}
+
+.hover() {
+    color: @color-selected;
+    cursor: pointer;
+}
+
+.hover-svg() {
+    fill: @color-selected;
+    cursor: pointer;
+}
+
+.active() {
+    color: darken(@color-selected, 20%);
+}
+
+.active-svg() {
+    fill: darken(@color-selected, 20%);
+}
