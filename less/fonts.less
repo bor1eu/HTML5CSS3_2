@@ -1,8 +1,5 @@
-// out: ../css/style.css, compress: true, strictMath: true
+// main: style.less
 
-@import "fonts.less";
-    
-/*
 @font-face {
     font-family: 'raleway';
     src: url('../fonts/raleway/raleway-regular.eot');
@@ -82,64 +79,15 @@
     font-weight: 400;
     font-style: normal;
 }
-*/
 
-@import "variables.less";
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto/roboto-regular.eot');
+    src: url('../fonts/roboto/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 
-/*
-@width: 1920px;
-@color-selected: #c7b299;
-@color-normal: #ffffff;
-@color-button: #998675;
-@color-button-shadow: #736357;
-@color-title-normal: #555555;
-@color-txt-normal: #8c8c8c;
-@color-milk: #fbfaf8;
-*/
-
-@import "body.less";
-
-/*
-html, body {
-    margin: 0;
-    padding: 0;
 }
-*/
-
-@import "mixins.less";
-/*
-.raleway(@size, @weight) {
-        font-family: 'raleway', Arial, sans-serif;
-        font-size: @size;
-        font-weight: @weight;
-        font-style: normal;
-}
-
-.montserrat(@size, @weight) {
-        font-family: 'montserrat', Arial, sans-serif;
-        font-size: @size;
-        font-weight: @weight;
-        font-style: normal;
-}
-
-.hover() {
-    color: @color-selected;
-    cursor: pointer;
-}
-
-.hover-svg() {
-    fill: @color-selected;
-    cursor: pointer;
-}
-
-.active() {
-    color: darken(@color-selected, 20%);
-}
-
-.active-svg() {
-    fill: darken(@color-selected, 20%);
-}
-*/
-
-@import "content.less";
-
+ 
